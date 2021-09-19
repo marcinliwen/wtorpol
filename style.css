@@ -365,4 +365,7 @@ footer {
         max-width: 350px;
         margin: 0px;
     }
+    .section-desc-text{
+        padding-right: 140px;
+    }
 }
