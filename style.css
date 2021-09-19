@@ -55,6 +55,8 @@ p{
     width: 100%;
     max-width: 1440px;
     padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #raport ul li {padding-left: 8px;}
