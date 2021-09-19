@@ -35,12 +35,14 @@ p{
     text-transform: uppercase;
     text-align: center;
     border-radius: 50px;
-    padding: 25px 60px;
+    padding: 25px 32px;
     font-family: inherit;
     font-size: inherit;
     cursor: pointer;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
+    width: 100%;
+    max-width: 350px;
 }
 .btn:hover {
     box-shadow: 2px 2px 3px #000000a3;
@@ -186,9 +188,11 @@ section{
 }
 
 .patron-images img {
-    height: 107px;
+   /* height: 107px; */
     width: auto;
     margin: 16px 0;
+    max-width: 100%;
+    height: auto;
 }
 .section-person img {
     width: 165px;
