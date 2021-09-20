@@ -18,4 +18,18 @@ window.addEventListener("load", function(){
             document.querySelector('#menu').classList.toggle('open');
         })
     })
+
+    var getReportBtns = document.querySelectorAll('.get-report');
+
+    getReportBtns.forEach(function(item){
+        item.addEventListener('click', function(){
+            document.querySelector(".custom-model-main").classList.add('model-open');
+        })
+    })
+    document.querySelector(".close-btn").addEventListener('click', function(){
+       document.querySelector(".custom-model-main").classList.remove('model-open');
+    });
+    document.querySelector(".bg-overlay").addEventListener('click', function(){
+        document.querySelector(".custom-model-main").classList.remove('model-open');
+     });
 })
